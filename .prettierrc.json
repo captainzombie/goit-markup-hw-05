@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"printWidth": 100,
 	"tabWidth": 2,
@@ -9,4 +10,17 @@
 	"jsxBracketSameLine": false,
 	"arrowParens": "avoid",
 	"proseWrap": "always"
+=======
+{
+	"printWidth": 100,
+	"tabWidth": 2,
+	"useTabs": false,
+	"semi": true,
+	"singleQuote": true,
+	"trailingComma": "es5",
+	"bracketSpacing": true,
+	"jsxBracketSameLine": false,
+	"arrowParens": "avoid",
+	"proseWrap": "always"
+>>>>>>> 9c7f2db6498292dec9c15fa620f659ec502ac825
   }

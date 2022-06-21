@@ -52,9 +52,9 @@
 	<main>
 		<section class="hero">
 			<div class="container">
-			<h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-			<button type="button" class="hero-btn"> Заказать услугу </button>
-		</div>
+				<h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+				<button type="button" class="hero-btn" data-modal-open> Заказать услугу </button>
+			</div>
 		</section>
 
 		<!-- Преимущества -->
@@ -381,11 +381,15 @@
 					
 				</li>
 			</ul>
-			</div>
-			
-			
+			</div>	
 		</div>
 			
 	</footer>
+	<div class="backdrop is-hidden" data-modal>
+				<div class="modal">
+					<button type="button" class="modal-btn-close" data-modal-close></button>
+				</div>
+	</div>
+	 <script src="./js/modal.js"></script>
 </body>
 </html>
